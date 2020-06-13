@@ -1,0 +1,143 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.head_div{
+    width: 80%;
+    margin: auto;
+}
+.myheader{
+
+    width: 100%;
+    height: 20vh;
+    background: #000;
+    position: fixed;
+    top: 0;
+    z-index: 10001;
+}
+.myheader h2{
+    color: red;
+    float:left;
+    font-style: italic;
+    font-size: 40px;
+    padding: 50px 0px;
+
+}
+ul{
+    position: relative;
+    padding:  50px 0px;
+    float: right;
+}
+ul li{
+    display: inline-block;
+
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 28px;
+    padding-right: 20px;
+}
+ul li a:hover{
+    color: #ccc;
+}
+.myheader h2:hover{
+    color: #b14646;
+}
+.mainsec
+{
+    width: 80%;
+    margin: 50px auto;
+    position: relative;
+    top: 20vh;
+}
+.mainsec h2
+{
+    margin-bottom: 30px;
+    color: #a7000a;
+}
+#bimg
+{
+    width: 100%;
+    height: 40vh;
+    background: url("img/pic11.jpg");
+    background-size: cover;
+    margin-bottom: 30px;
+}
+.mainsec p{
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+.touch
+{
+    width: 100%;
+    height: 80vh;
+    position: relative;
+    top:25vh;
+    background-color: #a7000a;
+    color: white;
+}
+.foot
+{
+    width:80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+.foot h2
+{
+    padding: 30px 30px 0 0;
+    font-size: 25px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+.ne{
+    display: flex;
+}
+.first,.second
+{
+    width: 50%;
+}
+.iptext
+{
+    width: 90%;
+    height: 35px;
+    background-color: #a7000a;
+    border: 1px solid #ffffff;
+    color: white;
+}
+.foot a{
+    border: 2px #fff solid;
+    color: #fff;
+    padding: 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.ne{
+    margin: 30px 0;
+}
+.foot textarea,.foot a{
+    margin-top: 30px;
+}
+#msg
+{
+    background-color: #a7000a;
+    border: 1px solid #ffffff;
+    color: white;
+}
+#sendmsg
+{
+    width: 150px;
+}
+.iptext:focus,#msg:focus
+{
+    border: 3px solid #ffffff;
+}
+
+.first h4,.second h4
+{
+    margin-bottom: 30px;
+}

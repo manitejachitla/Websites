@@ -1,0 +1,236 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.head_div{
+    width: 80%;
+    margin: auto;
+}
+.myheader{
+
+    width: 100%;
+    height: 20vh;
+    background: #000;
+    position: fixed;
+    top: 0;
+    z-index: 10001;
+}
+.myheader h2{
+    color: red;
+    float:left;
+    font-style: italic;
+    font-size: 40px;
+    padding: 30px 0px;
+
+}
+ul{
+    position: relative;
+    padding:  50px 0;
+    float: right;
+}
+ul li{
+    display: inline-block;
+
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 28px;
+    padding-right: 20px;
+}
+ul li a:hover{
+    color: #ccc;
+}
+.myheader h2:hover{
+    color: #b14646;
+}
+.inhead
+{
+    height: 20vh;
+    background-color: coral;
+}
+.mainsec
+{
+    width: 80%;
+    margin: auto;
+    display: block;
+}
+.table_section
+{
+    margin-top: 250px;
+}
+h2,h3,h4,h5,h6
+{
+    color: #a7000a;
+    margin: 20px 0;
+}
+p
+{
+    margin: 20px 0;
+}
+.bc
+{
+    border-left: 3px solid #a7000a;
+    padding-left: 30px;
+}
+code
+{
+    border: 1px solid #a7000a;
+}
+hr{
+    color: #a7000a;
+}
+.one
+{
+    text-decoration: none;
+    color: white;
+    background-color: #a7000a;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.two
+{
+    text-decoration: none;
+    color: white;
+    background-color: rgba(17,0,13,0.6);
+    padding: 10px;
+    box-sizing: border-box;
+}
+.three
+{
+    text-decoration: none;
+    color: #a7000a;
+    background-color: white;
+    padding: 10px;
+    border: 1px solid #a7000a;
+    box-sizing: border-box;
+}
+.div1,.div2
+{
+    margin-bottom: 40px;
+}
+.div1 a,.div2 a
+{
+    margin-right: 30px;
+}
+.div3,.div4,.div5,.div6
+{
+    display: flex;
+    flex-direction: column;
+    margin-right: 80px;
+    margin-bottom: 30px;
+}
+.div3 a,.div4 a
+{
+    margin-bottom: 15px;
+
+}
+.div5 a,.div6 a
+{
+    width: 200px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.fdiv2
+{
+    display: flex;
+    float: left;
+}
+.fdiv3
+{
+    display: flex;
+    float: right;
+}
+.table-container
+{
+    width: 100%;
+}
+table
+{
+    width: 100%;
+}
+table tbody tr
+{
+    border: 2px solid #a7000a;
+}
+table th{
+
+    text-align: left;
+    height: 10vh;
+    color: #a7000a;
+    padding: 15px 0;
+}
+table td
+{
+    padding: 15px 0;
+}
+table tfoot tr{
+    border-top: 2px solid red;
+}
+.touch
+{
+    width: 100%;
+    height: 80vh;
+    position: relative;
+    color: white;
+}
+.foot
+{
+    width:80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+.foot h2
+{
+    padding: 15px 0;
+    font-size: 25px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.ne{
+    display: flex;
+}
+.first,.second
+{
+    width: 50%;
+}
+.iptext
+{
+    width: 90%;
+    height: 35px;
+    background-color: #ffffff;
+    border: 1px solid #a7000a;
+    color: white;
+}
+.foot a{
+    border: 2px #a7000a solid;
+    color: #a7000a;
+    padding: 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.ne{
+    margin: 10px 0;
+}
+.foot textarea,.foot a{
+    margin-top: 10px;
+}
+#msg
+{
+    background-color: #ffffff;
+    border: 1px solid #a7000a;
+    color: white;
+}
+#sendmsg
+{
+    width: 150px;
+}
+.iptext:focus,#msg:focus
+{
+    border: 3px solid #ffffff;
+}
+

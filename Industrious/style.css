@@ -1,0 +1,118 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    font-family: 'Raleway', sans-serif;
+}
+.navbar
+{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px ;
+    background: black;
+}
+.navbar h2
+{
+    align-self: flex-start;
+    color: whitesmoke;
+}
+.navbar h3
+{
+    align-self: flex-end;
+    color: rgba(255,255,255,0.5);
+}
+.banner
+{
+    width: 100%;
+    position: relative;
+}
+.bv
+{
+    width: 100%;
+    height: 82vh;
+    object-fit: cover;
+    z-index: 30;
+}
+.over
+{
+    opacity: 0.5;
+    position: absolute;
+    background: linear-gradient(135deg, #ce1b28 0%, #111111 74%);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 82vh;
+}
+.inner
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 60%;
+    text-align: center;
+    z-index: 30;
+}
+.inner h2
+{
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    font-size: 1.7em;
+}
+.inner p{
+    color: rgba(255,255,255,0.5);
+    line-height: 1.5em;
+    font-size: 1.2em;
+}
+.plp
+{
+    width: 100%;
+    /*background-color:#cccccc ;*/
+}
+.grid_cont
+{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+.grid_cont h2
+{
+    margin-top: 200px;
+}
+.grid_cont p
+{
+    margin-top: 40px;
+    margin-bottom:200px;
+}
+.card_cont
+{
+    margin: 80px 0;
+    display: grid;
+    grid-template-columns:30% 30% 30%;
+    grid-gap: 50px;
+    box-sizing: border-box;
+}
+.cardone
+{
+    background-color: white;
+    box-shadow: 1px 1px 3px black;
+}
+.cardone i{
+    font-size: 50px;
+    color: red;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.cardone h3
+{
+    margin-bottom: 20px;
+}
+.cardone p
+{
+    margin-bottom: 50px;
+}
